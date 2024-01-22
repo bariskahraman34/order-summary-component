@@ -14,4 +14,86 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    background-color: #FFFFFF;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 48px;
+    
+    .title{
+        color: #1F2E55;
+        font-size: 28px;
+        font-weight: 900;
+    }
+
+    .content{
+        color: #717FA6;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        padding: 17px;
+    }
+
+    .plan-container{
+        margin-top: 20px;
+        border-radius: 11px;
+        background: #F7F9FF;
+        padding: 25px;
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .plan-type-container{
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            text-align:left;
+            gap:6px;
+
+            .plan-price{
+                color: #717FA6;
+                font-weight: 500;
+            }
+        }
+
+        .plan-container-left{
+            display: flex;
+            align-items: center;
+        }
+
+        a{
+            color: #382AE1;
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+}
+
+.continue-payment{
+    border-radius: 11px;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+    padding: 15px 102px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.cancel-payment{
+    color: #717FA6;
+    font-size: 15px;
+    font-weight: 900;
+    border: none;
+    background-color: transparent;
 }
