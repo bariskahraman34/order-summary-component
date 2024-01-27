@@ -15,6 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Red Hat Display', sans-serif;
+    background-size: contain;
 }
 
 .card-container{
@@ -22,6 +23,7 @@ body{
     flex-direction: column;
     width: 450px;
     background-color: #FFFFFF;
+    border-radius: 20px;
 }
 .content-container{
     display: flex;
